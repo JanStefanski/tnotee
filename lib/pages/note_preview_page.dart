@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:tnotee/models/note.dart';
-import 'package:tnotee/pages/note_add_page.dart';
 import 'package:tnotee/helpers/db_helper.dart';
 
 class NotePreviewPage extends StatefulWidget {
