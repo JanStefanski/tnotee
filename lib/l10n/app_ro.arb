@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Notă Nouă",
+  "loading": "Se încarcă...",
+  "noNotes": "Nicio notă",
+  "title": "Titlu",
+  "content": "Conținut",
+  "add": "Adaugă",
+  "edit": "Editează",
+  "delete": "Șterge",
+  "save": "Salvează",
+  "darkMode": "Mod Întunecat",
+  "language": "Limbă",
+  "options": "Opțiuni",
+  "note": "Notă",
+  "addNote": "Adaugă Notă",
+  "editNote": "Editează Nota"
+}

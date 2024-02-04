@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Uus Märkus",
+  "loading": "Laadimine...",
+  "noNotes": "Märkmeid pole",
+  "title": "Pealkiri",
+  "content": "Sisu",
+  "add": "Lisa",
+  "edit": "Muuda",
+  "delete": "Kustuta",
+  "save": "Salvesta",
+  "darkMode": "Tume Režiim",
+  "language": "Keel",
+  "options": "Valikud",
+  "note": "Märkus",
+  "addNote": "Lisa Märkus",
+  "editNote": "Muuda Märkust"
+}

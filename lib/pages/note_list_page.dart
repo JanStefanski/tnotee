@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:tnotee/models/note.dart';
 import 'package:tnotee/helpers/db_helper.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'package:tnotee/main.dart';
 
 class NoteListPage extends StatefulWidget {
   const NoteListPage({super.key});
@@ -42,7 +45,15 @@ class _NoteListPageState extends State<NoteListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TnoTee')
+        title: Text(AppLocalizations.of(context)!.appTitle),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.of(context).pushNamed('/options');
+            },
+          ),
+        ],
       ),
       body: ListView.builder(
         itemCount: notes.length,

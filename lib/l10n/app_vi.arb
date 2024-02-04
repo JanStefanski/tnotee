@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Ghi chú mới",
+  "loading": "Đang tải...",
+  "noNotes": "Không có ghi chú",
+  "title": "Tiêu đề",
+  "content": "Nội dung",
+  "add": "Thêm",
+  "edit": "Chỉnh sửa",
+  "delete": "Xóa",
+  "save": "Lưu",
+  "darkMode": "Chế độ tối",
+  "language": "Ngôn ngữ",
+  "options": "Tùy chọn",
+  "note": "Ghi chú",
+  "addNote": "Thêm ghi chú",
+  "editNote": "Chỉnh sửa ghi chú"
+}

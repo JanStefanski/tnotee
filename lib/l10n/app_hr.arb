@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nova Bilješka",
+  "loading": "Učitavanje...",
+  "noNotes": "Nema bilješki",
+  "title": "Naslov",
+  "content": "Sadržaj",
+  "add": "Dodaj",
+  "edit": "Uredi",
+  "delete": "Izbriši",
+  "save": "Spremi",
+  "darkMode": "Tamni Način",
+  "language": "Jezik",
+  "options": "Opcije",
+  "note": "Bilješka",
+  "addNote": "Dodaj Bilješku",
+  "editNote": "Uredi Bilješku"
+}

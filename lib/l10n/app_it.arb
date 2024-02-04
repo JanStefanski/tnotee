@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nuova Nota",
+  "loading": "Caricamento...",
+  "noNotes": "Nessuna nota",
+  "title": "Titolo",
+  "content": "Contenuto",
+  "add": "Aggiungi",
+  "edit": "Modifica",
+  "delete": "Elimina",
+  "save": "Salva",
+  "darkMode": "Modalità Scuro",
+  "language": "Lingua",
+  "options": "Opzioni",
+  "note": "Nota",
+  "addNote": "Aggiungi Nota",
+  "editNote": "Modifica Nota"
+}

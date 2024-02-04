@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "新筆記",
+  "loading": "載入中...",
+  "noNotes": "沒有筆記",
+  "title": "標題",
+  "content": "內容",
+  "add": "新增",
+  "edit": "編輯",
+  "delete": "刪除",
+  "save": "保存",
+  "darkMode": "夜間模式",
+  "language": "語言",
+  "options": "選項",
+  "note": "筆記",
+  "addNote": "新增筆記",
+  "editNote": "編輯筆記"
+}

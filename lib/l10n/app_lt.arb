@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nauja Užrašas",
+  "loading": "Kraunama...",
+  "noNotes": "Užrašų nėra",
+  "title": "Pavadinimas",
+  "content": "Turinys",
+  "add": "Pridėti",
+  "edit": "Redaguoti",
+  "delete": "Ištrinti",
+  "save": "Išsaugoti",
+  "darkMode": "Tamsusis režimas",
+  "language": "Kalba",
+  "options": "Parinktys",
+  "note": "Užrašas",
+  "addNote": "Pridėti Užrašą",
+  "editNote": "Redaguoti Užrašą"
+}

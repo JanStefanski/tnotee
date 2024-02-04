@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Jauna Piezīme",
+  "loading": "Ielādējas...",
+  "noNotes": "Nav piezīmju",
+  "title": "Nosaukums",
+  "content": "Saturs",
+  "add": "Pievienot",
+  "edit": "Rediģēt",
+  "delete": "Dzēst",
+  "save": "Saglabāt",
+  "darkMode": "Tumšais režīms",
+  "language": "Valoda",
+  "options": "Opcijas",
+  "note": "Piezīme",
+  "addNote": "Pievienot Piezīmi",
+  "editNote": "Rediģēt Piezīmi"
+}

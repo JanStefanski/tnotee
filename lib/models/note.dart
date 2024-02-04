@@ -7,10 +7,10 @@ class Note {
   String content;
 
   Note({
-    String? id, // Allow specifying an ID, but it's optional
+    String? id,
     required this.title,
     required this.content,
-  }) : id = id ?? const Uuid().v4(); // Generate a new UUID if no ID is provided
+  }) : id = id ?? const Uuid().v4();
 
   Map<String, dynamic> toMap() {
     return {

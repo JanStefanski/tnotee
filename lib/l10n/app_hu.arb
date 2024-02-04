@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Új Jegyzet",
+  "loading": "Töltés...",
+  "noNotes": "Nincs jegyzet",
+  "title": "Cím",
+  "content": "Tartalom",
+  "add": "Hozzáad",
+  "edit": "Szerkeszt",
+  "delete": "Töröl",
+  "save": "Mentés",
+  "darkMode": "Sötét mód",
+  "language": "Nyelv",
+  "options": "Beállítások",
+  "note": "Jegyzet",
+  "addNote": "Jegyzet hozzáadása",
+  "editNote": "Jegyzet szerkesztése"
+}

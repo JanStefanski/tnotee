@@ -2,9 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:tnotee/models/note.dart';
 import 'package:tnotee/helpers/db_helper.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class NoteAddPage extends StatefulWidget {
-  final Note? note; // Optional note for editing
+  final Note? note;
 
   const NoteAddPage({super.key, this.note});
 
@@ -28,30 +29,29 @@ class _NoteAddPageState extends State<NoteAddPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add Note'),
+        title: Text(widget.note?.id != null ? AppLocalizations.of(context)!.editNote : AppLocalizations.of(context)!.addNote),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: <Widget>[
-            Text(widget.note?.id ?? 'New note'),
             TextField(
               controller: _titleController,
-              decoration: const InputDecoration(labelText: 'Title'),
+              decoration: InputDecoration(labelText: AppLocalizations.of(context)!.title),
             ),
             Expanded(
               child: TextField(
                 controller: _contentController,
-                maxLines: null, // Allows the text field to expand vertically
-                keyboardType: TextInputType.multiline, // Enables line breaks
-                expands: true, // Ensures the TextField expands to fill the space
+                maxLines: null,
+                keyboardType: TextInputType.multiline,
+                expands: true,
               ),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () async {
                 final Note resultNote = Note(
-                  id: widget.note?.id, // Use the existing note's ID if editing
+                  id: widget.note?.id,
                   title: _titleController.text,
                   content: _contentController.text,
                 );
@@ -60,10 +60,9 @@ class _NoteAddPageState extends State<NoteAddPage> {
                 } else {
                   await DatabaseHelper.instance.updateNote(resultNote);
                 }
-                final action = widget.note == null ? 'add' : 'edit';
                 Navigator.pop(context, resultNote);
               },
-              child: const Text('Add'),
+              child: Text(AppLocalizations.of(context)!.save),
             ),
           ],
         ),

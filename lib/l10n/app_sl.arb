@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nova Opomba",
+  "loading": "Nalaganje...",
+  "noNotes": "Ni opomb",
+  "title": "Naslov",
+  "content": "Vsebina",
+  "add": "Dodaj",
+  "edit": "Uredi",
+  "delete": "Izbriši",
+  "save": "Shrani",
+  "darkMode": "Temni Način",
+  "language": "Jezik",
+  "options": "Možnosti",
+  "note": "Opomba",
+  "addNote": "Dodaj Opombo",
+  "editNote": "Uredi Opombo"
+}

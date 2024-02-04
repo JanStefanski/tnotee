@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:tnotee/models/note.dart';
 import 'package:tnotee/helpers/db_helper.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class NotePreviewPage extends StatefulWidget {
   final String noteId;
@@ -31,7 +32,7 @@ class _NotePreviewPageState extends State<NotePreviewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(note?.title ?? 'Loading...'),
+        title: Text(note?.title ?? AppLocalizations.of(context)!.loading),
         actions: [
           IconButton(
             icon: const Icon(Icons.edit),
@@ -44,7 +45,7 @@ class _NotePreviewPageState extends State<NotePreviewPage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: note != null ? Markdown(data: note!.content) : const Center(child: Text('Loading...')),
+        child: note != null ? Markdown(data: note!.content) : Center(child: Text(AppLocalizations.of(context)!.loading)),
       ),
     );
   }

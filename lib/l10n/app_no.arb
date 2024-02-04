@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Ny Notat",
+  "loading": "Laster...",
+  "noNotes": "Ingen notater",
+  "title": "Tittel",
+  "content": "Innhold",
+  "add": "Legg til",
+  "edit": "Rediger",
+  "delete": "Slett",
+  "save": "Lagre",
+  "darkMode": "Mørk modus",
+  "language": "Språk",
+  "options": "Alternativer",
+  "note": "Notat",
+  "addNote": "Legg til notat",
+  "editNote": "Rediger notat"
+}

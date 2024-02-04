@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "नया नोट",
+  "loading": "लोड हो रहा है...",
+  "noNotes": "कोई नोट्स नहीं",
+  "title": "शीर्षक",
+  "content": "सामग्री",
+  "add": "जोड़ें",
+  "edit": "संपादित करें",
+  "delete": "हटाएं",
+  "save": "सहेजें",
+  "darkMode": "डार्क मोड",
+  "language": "भाषा",
+  "options": "विकल्प",
+  "note": "नोट",
+  "addNote": "नोट जोड़ें",
+  "editNote": "नोट संपादित करें"
+}

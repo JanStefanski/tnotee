@@ -4,6 +4,7 @@ import 'package:tnotee/models/note.dart';
 import 'package:tnotee/pages/note_list_page.dart';
 import 'package:tnotee/pages/note_add_page.dart';
 import 'package:tnotee/pages/note_preview_page.dart';
+import 'package:tnotee/pages/options_page.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
@@ -15,6 +16,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case '/previewNote':
       final noteId = settings.arguments as String;
       return _createRoute(NotePreviewPage(noteId: noteId));
+    case '/options':
+      return MaterialPageRoute(builder: (context) => const OptionsPage());
     default:
       return MaterialPageRoute(builder: (context) => const NoteListPage());
   }

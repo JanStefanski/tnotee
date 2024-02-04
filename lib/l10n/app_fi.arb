@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Uusi Muistiinpano",
+  "loading": "Ladataan...",
+  "noNotes": "Ei muistiinpanoja",
+  "title": "Otsikko",
+  "content": "Sisältö",
+  "add": "Lisää",
+  "edit": "Muokkaa",
+  "delete": "Poista",
+  "save": "Tallenna",
+  "darkMode": "Tumma tila",
+  "language": "Kieli",
+  "options": "Asetukset",
+  "note": "Muistiinpano",
+  "addNote": "Lisää muistiinpano",
+  "editNote": "Muokkaa muistiinpanoa"
+}

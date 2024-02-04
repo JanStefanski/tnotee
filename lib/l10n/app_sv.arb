@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Ny Anteckning",
+  "loading": "Laddar...",
+  "noNotes": "Inga anteckningar",
+  "title": "Titel",
+  "content": "Innehåll",
+  "add": "Lägg till",
+  "edit": "Redigera",
+  "delete": "Radera",
+  "save": "Spara",
+  "darkMode": "Mörkt läge",
+  "language": "Språk",
+  "options": "Alternativ",
+  "note": "Anteckning",
+  "addNote": "Lägg till anteckning",
+  "editNote": "Redigera anteckning"
+}

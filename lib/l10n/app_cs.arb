@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nová Poznámka",
+  "loading": "Načítání...",
+  "noNotes": "Žádné poznámky",
+  "title": "Název",
+  "content": "Obsah",
+  "add": "Přidat",
+  "edit": "Upravit",
+  "delete": "Smazat",
+  "save": "Uložit",
+  "darkMode": "Tmavý režim",
+  "language": "Jazyk",
+  "options": "Možnosti",
+  "note": "Poznámka",
+  "addNote": "Přidat poznámku",
+  "editNote": "Upravit poznámku"
+}

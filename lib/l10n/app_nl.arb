@@ -1,0 +1,18 @@
+{
+  "appTitle": "TnoTee",
+  "newNote": "Nieuwe Notitie",
+  "loading": "Laden...",
+  "noNotes": "Geen notities",
+  "title": "Titel",
+  "content": "Inhoud",
+  "add": "Toevoegen",
+  "edit": "Bewerken",
+  "delete": "Verwijderen",
+  "save": "Opslaan",
+  "darkMode": "Donkere Modus",
+  "language": "Taal",
+  "options": "Opties",
+  "note": "Notitie",
+  "addNote": "Notitie Toevoegen",
+  "editNote": "Notitie Bewerken"
+}
